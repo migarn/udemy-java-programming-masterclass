@@ -25,5 +25,28 @@ public class Main {
         System.out.println(alphanumeric.replaceAll("[aei]", "X"));
         System.out.println(alphanumeric.replaceAll("[aei]", "I replaced a letter here"));
         System.out.println(alphanumeric.replaceAll("[aei][Fj]", "X"));
+
+        System.out.println("harry".replaceAll("[Hh]arry", "Harry"));
+
+        String newAlphanumeric = "abcDeeeF12Ghhiiiijkl99z";
+        System.out.println(newAlphanumeric.replaceAll("[^ej]","x"));
+        System.out.println(newAlphanumeric.replaceAll("[abcdef345678]","x"));
+        System.out.println(newAlphanumeric.replaceAll("[a-f3-8]","x"));
+        System.out.println(newAlphanumeric.replaceAll("[a-fA-F3-8]","x"));
+        System.out.println(newAlphanumeric.replaceAll("(?i)[a-f3-8]","x"));
+        System.out.println(newAlphanumeric.replaceAll("[0-9]","x"));
+        System.out.println(newAlphanumeric.replaceAll("\\d","x"));
+        System.out.println(newAlphanumeric.replaceAll("\\D","x"));
+
+        String hasWhiteSpace = "I have blanks and\ta tab, and also a newline \n";
+        System.out.println(hasWhiteSpace);
+        System.out.println(hasWhiteSpace.replaceAll("\\s",""));
+        System.out.println(hasWhiteSpace.replaceAll("\t","x"));
+        System.out.println(hasWhiteSpace.replaceAll("\\S","x"));
+        System.out.println(newAlphanumeric.replaceAll("\\w","x"));
+        System.out.println(hasWhiteSpace.replaceAll("\\w","x"));
+        System.out.println(hasWhiteSpace.replaceAll("\\b","x"));
+
+
     }
 }
