@@ -93,9 +93,46 @@ public class Main {
         String h2TextGroups = "(<h2>)(.+?)(</h2>)";
         Pattern h2TextPattern = Pattern.compile(h2TextGroups);
         Matcher h2TextMatcher = h2TextPattern.matcher(htmlText);
-         while (h2TextMatcher.find()) {
+        while (h2TextMatcher.find()) {
              System.out.println("Occurrence: " + h2TextMatcher.group(2));
-         }
+        }
+
+        System.out.println("harry".replaceAll("[H|h]arry","Larry"));
+        System.out.println("Harry".replaceAll("[H|h]arry","Larry"));
+
+        String tvTest = "tstvtkt";
+//        String tNotRegExp = "t[^v]";
+        String tNotRegExp = "t(?!v)";
+        Pattern tNotVPattern = Pattern.compile(tNotRegExp);
+        Matcher tNotVMatcher = tNotVPattern.matcher(tvTest);
+
+        count = 0;
+        while (tNotVMatcher.find()) {
+            count++;
+            System.out.println("Occurrence " + count + " : " + tNotVMatcher.start() + " to " + tNotVMatcher.end());
+        }
+
+        String phone1 = "1234567890";
+        String phone2 = "(123) 456-7890";
+        String phone3 = "123 456-7890";
+        String phone4 = "(123)456-7890";
+
+        System.out.println("phone1 = " + phone1.matches("^([\\(]{1}[0-9]{3}[\\)]{1}[ ]{1}[0-9]{3}[\\-]{1}[0-9]{4})$"));
+        System.out.println("phone2 = " + phone2.matches("^([\\(]{1}[0-9]{3}[\\)]{1}[ ]{1}[0-9]{3}[\\-]{1}[0-9]{4})$"));
+        System.out.println("phone3 = " + phone3.matches("^([\\(]{1}[0-9]{3}[\\)]{1}[ ]{1}[0-9]{3}[\\-]{1}[0-9]{4})$"));
+        System.out.println("phone4 = " + phone4.matches("^([\\(]{1}[0-9]{3}[\\)]{1}[ ]{1}[0-9]{3}[\\-]{1}[0-9]{4})$"));
+
+        String visa1 = "4444444444444";
+        String visa2 = "5444444444444";
+        String visa3 = "4444444444444444";
+        String visa4 = "4444";
+
+        System.out.println("visa1 " + visa1.matches("^4[0-9]{12}([0-9]{3})?$"));
+        System.out.println("visa2 " + visa2.matches("^4[0-9]{12}([0-9]{3})?$"));
+        System.out.println("visa3 " + visa3.matches("^4[0-9]{12}([0-9]{3})?$"));
+        System.out.println("visa4 " + visa4.matches("^4[0-9]{12}([0-9]{3})?$"));
+
+
 
     }
 }
