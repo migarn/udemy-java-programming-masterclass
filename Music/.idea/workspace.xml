@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0509988f-b645-42a0-a31a-d149b31747b7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Music.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/Song.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ButtonFX/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ButtonFX/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ConcurrencyChallenges/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ConcurrencyChallenges/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Counter/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Counter/.idea/workspace.xml" afterDir="false" />
@@ -10,6 +10,9 @@
       <change beforePath="$PROJECT_DIR$/../DebuggerDemo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DebuggerDemo/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Lambdas/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lambdas/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Messages/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Messages/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/michalgarnczarski/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/michalgarnczarski/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/DataSource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/DataSource.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../PoliteWorker/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PoliteWorker/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ProducerConsumer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ProducerConsumer/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../RegularExpressions/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../RegularExpressions/.idea/workspace.xml" afterDir="false" />
@@ -29,20 +32,47 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/michalgarnczarski/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="27" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
+            <state relative-caret-position="425">
+              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/model/DataSource.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="78">
-              <caret line="10" column="55" lean-forward="true" selection-start-line="10" selection-start-column="55" selection-end-line="10" selection-end-column="55" />
+            <state relative-caret-position="680">
+              <caret line="40" column="13" lean-forward="true" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/model/Artist.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/model/Album.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/model/Song.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -62,6 +92,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/src/model/Artist.java" />
+        <option value="$PROJECT_DIR$/src/model/Album.java" />
+        <option value="$PROJECT_DIR$/src/model/Song.java" />
         <option value="$PROJECT_DIR$/src/model/DataSource.java" />
         <option value="$PROJECT_DIR$/src/com/michalgarnczarski/Main.java" />
       </list>
@@ -78,8 +111,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -98,6 +131,12 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="michalgarnczarski" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Music" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Music" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -105,7 +144,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1599752614270" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1599905317093" />
     <property name="last_opened_file_path" value="$USER_HOME$/Downloads/sqlite-jdbc-3.32.3.2.jar!/" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
@@ -155,14 +194,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="960" y="0" width="960" height="1040" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Image Layers" order="0" />
       <window_info id="Designer" order="1" />
       <window_info id="UI Designer" order="2" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="Favorites" order="4" sideWeight="0.50153375" side_tool="true" weight="0.25" />
-      <window_info content_ui="combo" id="Project" order="5" sideWeight="0.49846625" visible="true" weight="0.15777777" />
+      <window_info content_ui="combo" id="Project" order="5" sideWeight="0.49846625" visible="true" weight="0.16111112" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" order="0" />
       <window_info anchor="bottom" id="Terminal" order="1" />
@@ -186,17 +224,38 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/michalgarnczarski/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/model/Artist.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="27" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
+        <state relative-caret-position="119">
+          <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/Album.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/Song.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/model/DataSource.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="10" column="55" lean-forward="true" selection-start-line="10" selection-start-column="55" selection-end-line="10" selection-end-column="55" />
+        <state relative-caret-position="680">
+          <caret line="40" column="13" lean-forward="true" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/michalgarnczarski/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
         </state>
       </provider>
     </entry>

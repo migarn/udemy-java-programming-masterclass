@@ -1,6 +1,9 @@
 package com.michalgarnczarski;
 
+import model.Artist;
 import model.DataSource;
+
+import java.util.List;
 
 public class Main {
 
@@ -9,6 +12,16 @@ public class Main {
         if (!dataSource.open()) {
             System.out.println("Can't open datasource");
             return;
+        }
+
+        List<Artist> artists = dataSource.queryArtists();
+        if (artists == null) {
+            System.out.println("No artists");
+            return;
+        }
+
+        for (Artist artist : artists) {
+            System.out.println("ID = " + artist.getId() + ", Name = " + artist.getName());
         }
 
         dataSource.close();
