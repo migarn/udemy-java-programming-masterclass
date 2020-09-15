@@ -9,6 +9,9 @@
       <change beforePath="$PROJECT_DIR$/../DebuggerDemo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DebuggerDemo/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Lambdas/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lambdas/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Messages/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Messages/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Music/com/michalgarnczarski/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Music/com/michalgarnczarski/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Music/model/DataSource.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Music/model/DataSource.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/michalgarnczarski/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/michalgarnczarski/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/model/DataSource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/DataSource.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../PoliteWorker/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PoliteWorker/.idea/workspace.xml" afterDir="false" />
@@ -33,8 +36,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/michalgarnczarski/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+            <state relative-caret-position="153">
+              <caret line="19" column="19" lean-forward="true" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -42,8 +45,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/model/DataSource.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1139">
-              <caret line="67" column="41" lean-forward="true" selection-start-line="67" selection-start-column="41" selection-end-line="67" selection-end-column="41" />
+            <state relative-caret-position="591">
+              <caret line="126" lean-forward="true" selection-start-line="126" selection-end-line="126" />
             </state>
           </provider>
         </entry>
@@ -93,8 +96,8 @@
         <option value="$PROJECT_DIR$/src/model/Artist.java" />
         <option value="$PROJECT_DIR$/src/model/Album.java" />
         <option value="$PROJECT_DIR$/src/model/Song.java" />
-        <option value="$PROJECT_DIR$/src/model/DataSource.java" />
         <option value="$PROJECT_DIR$/src/com/michalgarnczarski/Main.java" />
+        <option value="$PROJECT_DIR$/src/model/DataSource.java" />
       </list>
     </option>
   </component>
@@ -109,7 +112,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -138,11 +141,11 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1599905317093" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1600147806640" />
     <property name="last_opened_file_path" value="$USER_HOME$/Downloads/sqlite-jdbc-3.32.3.2.jar!/" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
@@ -199,7 +202,7 @@
       <window_info id="UI Designer" order="2" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="Favorites" order="4" sideWeight="0.50153375" side_tool="true" weight="0.25" />
-      <window_info content_ui="combo" id="Project" order="5" sideWeight="0.49846625" visible="true" weight="0.16444445" />
+      <window_info content_ui="combo" id="Project" order="5" sideWeight="0.49846625" visible="true" weight="0.16777778" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" order="0" />
       <window_info anchor="bottom" id="Terminal" order="1" />
@@ -246,15 +249,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/michalgarnczarski/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        <state relative-caret-position="153">
+          <caret line="19" column="19" lean-forward="true" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/model/DataSource.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1139">
-          <caret line="67" column="41" lean-forward="true" selection-start-line="67" selection-start-column="41" selection-end-line="67" selection-end-column="41" />
+        <state relative-caret-position="591">
+          <caret line="126" lean-forward="true" selection-start-line="126" selection-end-line="126" />
         </state>
       </provider>
     </entry>
