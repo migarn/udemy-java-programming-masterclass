@@ -26,7 +26,7 @@ public class Main {
 
         System.out.println("---------------------");
 
-        List<String> albumsForArtist = dataSource.queryAlbumsForArtist("Iron Maiden", DataSource.ORDER_BY_ASC);
+        List<String> albumsForArtist = dataSource.queryAlbumsForArtist("Pink Floyd", DataSource.ORDER_BY_DESC);
 
         for (String album : albumsForArtist) {
             System.out.println(album);
