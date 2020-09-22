@@ -34,7 +34,7 @@ public class Main {
         }
 
         System.out.println("---------------------");
-         List<SongArtist> songArtists = dataSource.queryArtistForSong("Go Your Own Way", DataSource.ORDER_BY_ASC);
+         List<SongArtist> songArtists = dataSource.queryArtistsForSong("Go Your Own Way", DataSource.ORDER_BY_ASC);
         if (songArtists == null) {
             System.out.println("Couldn't find the artist for the song");
             return;
@@ -46,12 +46,24 @@ public class Main {
                     " Track = " + artist.getTrack());
         }
 
-        dataSource.querySongsMetaData();
+        dataSource.querySongsMetadata();
 
         int count = dataSource.getCount(DataSource.TABLE_SONGS);
         System.out.println("Number of songs is: " + count);
 
-        dataSource.createViewForSongArtist();
+        dataSource.createViewForSongArtists();
+
+        songArtists = dataSource.querySongInfoView("Go Your Own Way");
+        if (songArtists.isEmpty()) {
+            System.out.println("Couldn't find the artist for the song");
+            return;
+        }
+
+        for (SongArtist artist : songArtists) {
+            System.out.println("FROM VIEW - Artist name = " + artist.getArtistName() +
+                    " Album name = " + artist.getAlbumName() +
+                    " Track number = " + artist.getTrack());
+        }
 
         dataSource.close();
     }
